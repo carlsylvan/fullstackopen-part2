@@ -18,7 +18,6 @@ const Course = ({ course }) => {
     return <p>Number of exercises {total}</p>
   }
 
-
   return(
         <>
       {course.map(course => (
